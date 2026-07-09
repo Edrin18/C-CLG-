@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int myInt = 2147483647; 
+    long long myLongLong = 9223372036854775807LL;
+
+    cout << "Integer value: " << myInt 
+         << ", Size: " << sizeof(myInt) << " bytes" << endl;
+
+    cout << "Long long value: " << myLongLong 
+         << ", Size: " << sizeof(myLongLong) << " bytes" << endl;
+
+
+    myInt = myInt + 1; 
+    cout << "Integer after overflow: " << myInt << endl;
+
+    myLongLong = myLongLong - 1; 
+    cout << "Long long after decrement: " << myLongLong << endl;
+
+    return 0;
+}
