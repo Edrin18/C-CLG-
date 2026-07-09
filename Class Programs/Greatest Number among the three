@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+int main(){
+	int a,b,c;
+	cout<<"Enter the First Number: "<<endl;
+	cin>>a;
+	cout<<"Enter the Second Number: "<<endl;
+	cin>>b;
+	cout<<"Enter the Third Number: "<<endl;
+	cin>>c;
+	if (a>b && a>c)
+	cout<<a<<" Is the Greatest among the Three"<<endl;
+	if (b>a&&b>c)
+	cout<<b<<" Is the Greatest among the Three"<<endl;
+	if (c>a&&c>b)
+	cout<<c<<" Is the Greatest among the Three"<<endl;
+	
+}
