@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 5;
+
+    cout << "Initial value of a: " << a << endl;
+
+    cout << "Pre-increment (++a): " << ++a << endl;
+    cout << "After pre-increment, a: " << a << endl;
+
+    cout << "Post-increment (a++): " << a++ << endl;
+    cout << "After post-increment, a: " << a << endl;
+
+    cout << "Pre-decrement (--a): " << --a << endl;
+    cout << "After pre-decrement, a: " << a << endl;
+
+    cout << "Post-decrement (a--): " << a-- << endl;
+    cout << "After post-decrement, a: " << a << endl;
+
+    return 0;
+}
