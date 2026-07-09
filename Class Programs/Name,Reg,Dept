@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main(){
+	string a,Name,Reg_no,Dept;
+	cout<<"Hello World"<<endl;
+	cout<<"Enter Register Number:"<<endl;
+	getline(cin,Reg_no);
+	cout<<"Enter Your Name:"<<endl;
+	getline(cin,Name);
+	cout<<"Enter your Department:"<<endl;
+	getline(cin,Dept);
+	
+	cout<<"Name:"<<Name<<endl;
+	cout<<"Register Number:"<<Reg_no<<endl;
+	cout<<"Department"<<Dept<<endl;
+	
+}
