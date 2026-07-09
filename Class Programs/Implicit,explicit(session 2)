@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int a = 10;
+    double b = 3.5;
+
+    // Implicit type conversion (int promoted to double during addition)
+    double resultImplicit = a + b;
+    cout << "Implicit conversion (a + b): " << resultImplicit << endl;
+
+    // Explicit type casting using (type) operator
+    double resultExplicit = (double)a / b;
+    cout << "Explicit casting ((double)a / b): " << resultExplicit << endl;
+
+    // Another example: casting double to int
+    int castToInt = (int)b;
+    cout << "Explicit casting (int)b: " << castToInt << endl;
+
+    return 0;
+}
